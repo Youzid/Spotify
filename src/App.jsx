@@ -10,8 +10,9 @@ import { useEffect, useState } from 'react';
 const App = () => {
 
   const { activeSong } = useSelector((state) => state.player);
-const [musicWindow, setMusicWindow] = useState(false)
+
 const [arrow, setArrow] = useState(true)
+
 
 
   return (
@@ -48,16 +49,16 @@ const [arrow, setArrow] = useState(true)
       </div>
 
       {activeSong?.title && (
-        <div className={`   fixed h-28 bottom-[${musicWindow ? "-10%" : "0%"}] duration-700 left-0 right-0 flex  animate-slideup bg-gradient-to-br from-black via-white/10 to-white/10 backdrop-blur-lg rounded-t-3xl z-10`}>
+        <div className={`   fixed h-28 bottom-0   duration-700 left-0 right-0 flex  animate-slideup bg-gradient-to-br from-black via-white/10 to-white/10 backdrop-blur-lg rounded-t-3xl z-10`}>
           <MusicPlayer />
           <div className='w-4 h-4'>
-           <div className='relative w-[40px] h-[20px] bottom-[-75%] right-[200%] group flex justify-center items-center cursor-pointer ' onClick={()=>{setArrow(!arrow) ; setMusicWindow(!musicWindow)}}>
+           {/* <div className='relative w-[40px] h-[20px] bottom-[-75%] right-[200%] group flex justify-center items-center cursor-pointer ' onClick={()=>{setArrow(!arrow) ; setMusicWindow(!musicWindow)}}>
           <span className={`absolute w-[20px] h-1 bg-white group-hover:bg-main group-hover:brightness-110    left-[4px] duration-300 z-10 ${arrow ? "rotate-45" :"-rotate-45" }`}  ></span>
           <span className={`absolute w-[20px] h-1 bg-white group-hover:bg-main group-hover:brightness-110  right-[4px] duration-300 z-10 ${arrow ? "-rotate-45" :"rotate-45" }`}    ></span>
-            </div> 
+            </div>  */}
           </div>
         </div>
-      )}
+       )} 
      
     </div>
   </div>
