@@ -1,12 +1,12 @@
 
-# 🌐Spotify🌐
+# 🎵Spotify🎵
 Rebuilt a music streaming web application. Presented with a dashboard that shows trending music. Programmed a full music player functionalities. Accessibility to specific songartist details page.
 
 
 ## 📸 Screenshots 📸
 
 ![App Screenshot](https://iili.io/HWGYaWX.md.png%22/468x300?text=App+Screenshot+Here)
-![App Screenshot]https://iili.io/HWGYYxt.md.png%22/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://iili.io/HWGYYxt.md.png%22/468x300?text=App+Screenshot+Here)
 
 
 
