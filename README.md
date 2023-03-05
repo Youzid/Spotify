@@ -26,7 +26,7 @@ https://spotify-youzid.vercel.app
 
 ## 📧 Feedback 📧
 
-If you have any feedback, please reach out to me on
+If you have any feedback, please reach out to me at
 
 -linkedin.com/in/youcefbenbouzid            
 -you.benbouzid@gmail.com 
